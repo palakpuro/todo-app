@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main-heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap:10px ;
+    margin-top: 10px;
+    align-items: center;
+}
+.btn-delete{
+background-color: brown;
+color: aliceblue;
+border: none;
+border-radius: 10px;
+padding: 15px 0px;
+}
+.btn-todo{
+    background-color: rgb(79, 221, 86);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    }
